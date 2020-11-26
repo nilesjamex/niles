@@ -8,9 +8,7 @@ const Nav = () => {
         <Bar>
             <nav>
             <div>
-                <Link>
-             <img src={cartoon1} alt="" /> 
-                </Link>  
+             <img src={cartoon1} alt="" />   
              </div> 
              <ul className="nav-links">
              <li>
@@ -40,16 +38,13 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  margin-top: 15px;
 }
 img{
-    height:50px;
+    height:70px;
     width: 70px;
-    object-fit: contain;
 }
 ul{
     display: flex;
-    width: 60%;
     justify-content: space-around;
 }
 .burger{

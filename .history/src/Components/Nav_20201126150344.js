@@ -6,11 +6,8 @@ import styled from 'styled-components'
 const Nav = () => {
     return (
         <Bar>
-            <nav>
             <div>
-                <Link>
-             <img src={cartoon1} alt="" /> 
-                </Link>  
+             <img src={cartoon1} alt="" />   
              </div> 
              <ul className="nav-links">
              <li>
@@ -23,12 +20,11 @@ const Nav = () => {
                <Link>Resume</Link> 
                 </li>
              </ul>
-             <div className="burger">
+             <div class="burger">
               <div className="line1"></div>
               <div className="line2"></div>
               <div className="line3"></div>
               </div>
-              </nav>
         </Bar>
     )
 }
@@ -37,23 +33,14 @@ const Nav = () => {
 const Bar = styled.nav`
 nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  margin-top: 15px;
 }
 img{
-    height:50px;
+    height:70px;
     width: 70px;
-    object-fit: contain;
-}
-ul{
-    display: flex;
-    width: 60%;
-    justify-content: space-around;
-}
-.burger{
-    display: none;
 }
 `
 

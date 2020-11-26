@@ -8,9 +8,7 @@ const Nav = () => {
         <Bar>
             <nav>
             <div>
-                <Link>
-             <img src={cartoon1} alt="" /> 
-                </Link>  
+             <img src={cartoon1} alt="" />   
              </div> 
              <ul className="nav-links">
              <li>

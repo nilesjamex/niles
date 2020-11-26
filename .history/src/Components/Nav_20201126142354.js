@@ -1,16 +1,12 @@
 import React from 'react';
 import cartoon1 from '../Images/cartoon1.jpg'
-import { Link } from 'react-router-dom';
-import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
     return (
-        <Bar>
-            <nav>
+        <Nav>
             <div>
-                <Link>
-             <img src={cartoon1} alt="" /> 
-                </Link>  
+             <img src={cartoon1} alt="" />   
              </div> 
              <ul className="nav-links">
              <li>
@@ -23,37 +19,22 @@ const Nav = () => {
                <Link>Resume</Link> 
                 </li>
              </ul>
-             <div className="burger">
+             <div class="burger">
               <div className="line1"></div>
               <div className="line2"></div>
               <div className="line3"></div>
               </div>
-              </nav>
-        </Bar>
+        </Nav>
     )
 }
 
 
-const Bar = styled.nav`
+const Nav = styled.nav`
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  margin-top: 15px;
-}
-img{
-    height:50px;
-    width: 70px;
-    object-fit: contain;
-}
-ul{
-    display: flex;
-    width: 60%;
-    justify-content: space-around;
-}
-.burger{
-    display: none;
 }
 `
 
