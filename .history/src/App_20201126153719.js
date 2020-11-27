@@ -11,9 +11,7 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <Nav />
-      <Switch>
       <Home />
-      </Switch>
     </div>
   );
 }

@@ -4,16 +4,13 @@ import { Switch, Route } from 'react-router-dom'
 import GlobalStyle from "./GlobalStyle";
 // adding components
 import Nav from './Components/Nav';
-import Home from './Components/Home';
+import Home from './Components/Home'
 
 function App() {
   return (
     <div className="App">
       <GlobalStyle />
       <Nav />
-      <Switch>
-      <Home />
-      </Switch>
     </div>
   );
 }
