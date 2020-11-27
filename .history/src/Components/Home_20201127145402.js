@@ -1,6 +1,7 @@
 import React from 'react';
-import cartoon2 from '../Images/cartoon2.jpg';
-import styled from 'styled-components';
+import cartoon2 from '../Images/cartoon2.jpg'
+import styled from 'styled-components'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -65,7 +66,7 @@ img{
 .body{
     margin: 3rem 8rem;
     span{
-        color: #262626;
+        color: #000000;
 
     }
 }
@@ -78,9 +79,9 @@ ul{
     }
     li{
         margin: 6px;
-        transition: all ease 0.7s;
         &:hover{
             margin-bottom: 10px;
+            color:green;
         }
     }
 }

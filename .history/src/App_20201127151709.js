@@ -6,11 +6,11 @@ import GlobalStyle from "./GlobalStyle";
 import Nav from './Components/Nav';
 import Home from './Components/Home';
 // importing works
-import data from './data'
+import data from '../data'
 
 function App() {
   const [works, setworks ] = useState(data());
-
+  
 
   return (
     <div className="App">

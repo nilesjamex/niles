@@ -1,6 +1,7 @@
 import React from 'react';
-import cartoon2 from '../Images/cartoon2.jpg';
-import styled from 'styled-components';
+import cartoon2 from '../Images/cartoon2.jpg'
+import styled from 'styled-components'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (

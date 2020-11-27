@@ -1,6 +1,7 @@
 import React from 'react';
-import cartoon2 from '../Images/cartoon2.jpg';
-import styled from 'styled-components';
+import cartoon2 from '../Images/cartoon2.jpg'
+import styled from 'styled-components'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -21,17 +22,17 @@ const Home = () => {
                  <ul>
                      <li>
                      <a href="mailto:egbaidomehjamez@gmail.com">
-                     <i class="fas fa-envelope"></i> <span>Email Me</span> <i class="fas fa-paperclip"></i><hr />
+                     <i class="fas fa-envelope"></i><hr /><span>Email Me</span> <i class="fas fa-paperclip"></i>
                      </a>
                      </li>
                      <li>
                      <a href="https://twitter.com/niles_jamex">
-                     <i class="fab fa-twitter"></i> <span>Twitter</span> <i class="fas fa-paperclip"></i><hr />
+                     <i class="fab fa-twitter"></i><hr /><span>Twitter</span> <i class="fas fa-paperclip"></i>
                      </a>
                      </li>
                      <li>
                      <a href="https://github.com/nilesjamex">
-                     <i class="fab fa-github"></i> <span>Github</span> <i class="fas fa-paperclip"></i><hr />
+                     <i class="fab fa-github"></i><hr /><span>Github</span> <i class="fas fa-paperclip"></i>
                      </a>
                      </li>
                  </ul>
@@ -65,23 +66,17 @@ img{
 .body{
     margin: 3rem 8rem;
     span{
-        color: #262626;
+        color: #000000;
 
     }
 }
 ul{
     display: flex;
-    margin: 12rem -5rem;
     hr{
-        width: 100px;
-        margin-top: 2px;
-    }
-    li{
-        margin: 6px;
-        transition: all ease 0.7s;
-        &:hover{
-            margin-bottom: 10px;
-        }
+        display: inline-block;
+        height:2px;
+        width: 50px;
+        margin-bottom: 20px;
     }
 }
 `
