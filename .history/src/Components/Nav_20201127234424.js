@@ -20,9 +20,6 @@ const Nav = () => {
                <Link to="/works">Works</Link> 
                 </li>
                 <li>
-               <Link to="/contact">Contact</Link> 
-                </li>
-                <li>
                <Link>Resume</Link> 
                 </li>
              </ul>
@@ -57,14 +54,6 @@ ul{
 }
 .burger{
     display: none;
-}
-@media screen and (max-width: 860px){
-    .nav-links{
-        display: none;
-    }
-    .burger{
-        display: block;
-    }
 }
 `
 

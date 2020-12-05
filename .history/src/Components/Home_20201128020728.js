@@ -64,7 +64,7 @@ img{
     }
 }
 .body{
-    margin: 3rem 8rem;
+    margin: 3rem 10rem;
     span{
         color: #262626;
 

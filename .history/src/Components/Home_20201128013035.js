@@ -49,10 +49,9 @@ const About = styled.div`
 display: flex;
 margin-top: 3rem;
 img{
-    width: 100%;
+    width: 60%;
     height: 80vh;
     object-fit: cover;
-    margin-left: -10rem;
 }
 .home-body{
     margin: 0 11.6rem;

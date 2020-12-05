@@ -6,8 +6,7 @@ import GlobalStyle from "./GlobalStyle";
 import Nav from './Components/Nav';
 import Home from './Components/Home';
 import Works from './Components/Works';
-import Work from './Components/Work';
-import Contact from './Components/Contact'
+import Work from './Components/Work'
 // importing works
 import data from './data'
 
@@ -26,9 +25,6 @@ function App() {
       <Route exact path="/works">
       <Work
       works={works} />
-      </Route>
-      <Route exact path="/contact">
-      <Contact />
       </Route>
       </Switch>
     </div>

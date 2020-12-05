@@ -52,7 +52,7 @@ img{
     width: 100%;
     height: 80vh;
     object-fit: cover;
-    margin-left: -10rem;
+    margin-left: -4rem;
 }
 .home-body{
     margin: 0 11.6rem;

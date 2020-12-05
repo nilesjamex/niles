@@ -21,17 +21,17 @@ const Home = () => {
                  <ul>
                      <li>
                      <a href="mailto:egbaidomehjamez@gmail.com">
-                     <i className="fas fa-envelope"></i> <span>Email Me</span> <i className="fas fa-paperclip"></i><hr />
+                     <i class="fas fa-envelope"></i> <span>Email Me</span> <i class="fas fa-paperclip"></i><hr />
                      </a>
                      </li>
                      <li>
                      <a href="https://twitter.com/niles_jamex">
-                     <i className="fab fa-twitter"></i> <span>Twitter</span> <i className="fas fa-paperclip"></i><hr />
+                     <i class="fab fa-twitter"></i> <span>Twitter</span> <i class="fas fa-paperclip"></i><hr />
                      </a>
                      </li>
                      <li>
                      <a href="https://github.com/nilesjamex">
-                     <i className="fab fa-github"></i> <span>Github</span> <i className="fas fa-paperclip"></i><hr />
+                     <i class="fab fa-github"></i> <span>Github</span> <i class="fas fa-paperclip"></i><hr />
                      </a>
                      </li>
                  </ul>
@@ -49,10 +49,9 @@ const About = styled.div`
 display: flex;
 margin-top: 3rem;
 img{
-    width: 100%;
+    width: 60%;
     height: 80vh;
     object-fit: cover;
-    margin-left: -10rem;
 }
 .home-body{
     margin: 0 11.6rem;
@@ -72,11 +71,10 @@ img{
 }
 ul{
     display: flex;
-    margin: 12rem 0 0 -5rem;
+    margin: 12rem -5rem;
     hr{
         width: 100px;
         margin-top: 2px;
-    }
     }
     li{
         margin: 6px;
@@ -85,6 +83,10 @@ ul{
             margin-bottom: 10px;
         }
     }
+    a:hover{
+            margin-bottom: 10px;
+        }
+}
 `
 
 export default Home

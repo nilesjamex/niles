@@ -58,14 +58,6 @@ ul{
 .burger{
     display: none;
 }
-@media screen and (max-width: 860px){
-    .nav-links{
-        display: none;
-    }
-    .burger{
-        display: block;
-    }
-}
 `
 
 export default Nav;

@@ -13,7 +13,7 @@ return [
         languages: "React + styled components",
         brief: "Music Application",
         github: "https://github.com/nilesjamex/music-app",
-        live: "https://chillhopmusic.netlify.app/"
+        live: ""
     },
     {
         name: "Dicee",
