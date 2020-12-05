@@ -31,7 +31,7 @@ const Nav = () => {
                <Link>Resume</Link> 
                 </li>
              </ul>
-             <div className={`burger ${navOut ? `toggle` : ""}`} onClick={onClick}>
+             <div className="burger" onClick={onClick}>
               <div className="line1"></div>
               <div className="line2"></div>
               <div className="line3"></div>
@@ -94,17 +94,6 @@ ul{
 }
 .nav-active {
   transform: translateX(0%);
-}
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
 }
 `
 

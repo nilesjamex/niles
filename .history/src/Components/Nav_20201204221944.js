@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import cartoon1 from '../Images/cartoon1.jpg'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
 const Nav = () => {
-    const [ navOut, setNavOut ] = useState(false);
-
-    const onClick = e =>{
-        setNavOut(!navOut)
-    }
     return (
         <Bar>
             <nav>
@@ -17,7 +12,7 @@ const Nav = () => {
              <img src={cartoon1} alt="" /> 
                 </Link>  
              </div> 
-             <ul className={navOut ? "nav-active" : "" }>
+             <ul className="nav-links">
              <li>
                <Link to="/">Home</Link> 
                 </li>
@@ -31,7 +26,7 @@ const Nav = () => {
                <Link>Resume</Link> 
                 </li>
              </ul>
-             <div className={`burger ${navOut ? `toggle` : ""}`} onClick={onClick}>
+             <div className="burger">
               <div className="line1"></div>
               <div className="line2"></div>
               <div className="line3"></div>
@@ -72,14 +67,12 @@ ul{
         height: 100vh;
         width: 60%;
         right: 0;
-        top: 10vh;
+        top: 8vh;
         background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
         transition: transform 0.5s ease-in;
-        transform: translateX(100%);
-        overflow-x: hidden;
 
     }
 }
@@ -87,24 +80,13 @@ ul{
     display: none;
 }
 @media screen and (max-width: 860px){
+    .nav-links{
+      
+    }
     .burger{
         display: block;
         cursor: pointer;
     }
-}
-.nav-active {
-  transform: translateX(0%);
-}
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
 }
 `
 
