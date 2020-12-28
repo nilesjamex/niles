@@ -85,10 +85,11 @@ img{
 .body{
     margin: 3rem 8rem;
     span{
+        color: #262626;
 
     }
     @media screen and (max-width: 850px){
-      margin: 0rem 0rem;  
+      margin: 1rem 0rem;  
       font-size: 1rem;
       width:90%;
      } 

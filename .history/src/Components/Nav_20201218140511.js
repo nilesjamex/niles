@@ -25,7 +25,10 @@ const Nav = () => {
                <Link to="/works">Works</Link> 
                 </li>
                 <li>
-               <a href="../files/EgbaidomehJames.pdf" download>Resume</a> 
+               <Link to="/contact">Contact</Link> 
+                </li>
+                <li>
+               <Link>Resume</Link> 
                 </li>
              </ul>
              <div className={`burger ${navOut ? `toggle` : ""}`} onClick={onClick}>
@@ -52,9 +55,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
-  margin-top: 0;
-  background-color: 	#9932CC;
+  min-height: 8vh;
+  margin-top: 15px;
   @media screen and (max-width: 850px){
     justify-content: space-between;
     width: 100%;
@@ -71,11 +73,11 @@ ul{
     justify-content: space-around;
     @media screen and (max-width: 850px){
         position: fixed  ;
-        height: 96vh;
+        height: 92vh;
         width: 60%;
         right: 0;
         top: 10vh;
-        background-color: #9932CC;
+        background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -83,12 +85,6 @@ ul{
         transform: translateX(100%);
         overflow-x: hidden;
 
-    }
-    li{
-      color: #fff;
-    }
-    a{
-      color: #fff;
     }
 }
 .burger{

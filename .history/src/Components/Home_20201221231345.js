@@ -85,6 +85,7 @@ img{
 .body{
     margin: 3rem 8rem;
     span{
+        color: ;
 
     }
     @media screen and (max-width: 850px){

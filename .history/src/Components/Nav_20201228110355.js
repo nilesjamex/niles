@@ -25,7 +25,7 @@ const Nav = () => {
                <Link to="/works">Works</Link> 
                 </li>
                 <li>
-               <a href="../files/EgbaidomehJames.pdf" download>Resume</a> 
+               <a href="C:\Users\User\3D Objects\portfolio\src\files\EgbaidomehJames.pdf" download>Resume</a> 
                 </li>
              </ul>
              <div className={`burger ${navOut ? `toggle` : ""}`} onClick={onClick}>

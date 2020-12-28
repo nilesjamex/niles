@@ -7,13 +7,13 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 body{
-    background-color: #fff;
+    background-color: #E9E2DE;
     font-family: 'Lato', sans-serif;
     color: #191919;
     @media screen and (max-width: 850px){
         position: absolute;
         overflow-x: hidden;
-        
+       
 
     }
 }

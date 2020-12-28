@@ -28,7 +28,7 @@ const Works = ({work}) => {
 const WorkStyle = styled.div`
 width: 74%;
 height: 20vh;
-background-color: transparent;
+background-color: #9370DB;
 margin: 2rem 0 0 8rem;
 @media screen and (max-width: 850px){
      margin-left: 3rem;   

@@ -30,9 +30,6 @@ width: 74%;
 height: 20vh;
 background-color: transparent;
 margin: 2rem 0 0 8rem;
-@media screen and (max-width: 850px){
-     margin-left: 3rem;   
-    }
 .work-info{
     margin: 1.5rem;
     .text-info{

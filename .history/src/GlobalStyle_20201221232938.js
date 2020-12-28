@@ -13,7 +13,7 @@ body{
     @media screen and (max-width: 850px){
         position: absolute;
         overflow-x: hidden;
-        
+       
 
     }
 }

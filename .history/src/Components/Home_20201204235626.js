@@ -58,26 +58,17 @@ img{
     object-fit: cover;
     margin-left: -10rem;
     @media screen and (max-width: 850px){
-        margin-left: 6rem;
+        margin-left: 0rem;
         border-radius: 100%;
-        width: 40%;
+        width: 60%;
         height: 20vh;
     }
 }
 .home-body{
     margin: 0 11.6rem;
-    @media screen and (max-width: 850px){
-        margin: 2rem 0 0 3rem;   
-    } 
 }
 .name{
     font-size: 2.3rem;
-    @media screen and (max-width: 850px){
-        font-size: 1rem;
-        .main-name{
-            margin-left: 4.3rem;
-        }
-    }
     .surname{
         margin-left: 2.1rem;
     }
@@ -85,13 +76,9 @@ img{
 .body{
     margin: 3rem 8rem;
     span{
+        color: #262626;
 
     }
-    @media screen and (max-width: 850px){
-      margin: 0rem 0rem;  
-      font-size: 1rem;
-      width:90%;
-     } 
 }
 ul{
     display: flex;
@@ -100,18 +87,13 @@ ul{
         width: 100px;
         margin-top: 2px;
     }
-    @media screen and (max-width: 850px){
-        margin: 2rem 0 0 0.3rem;
-        font-size: 1rem;
-        hr{
-        width: 60px;
-        margin-top: 2px;
-    }
-    }
     }
     li{
-        margin-left: 6px;
+        margin: 6px;
         transition: all ease 0.7s;
+        &:hover{
+            margin-bottom: 10px;
+        }
     }
 `
 

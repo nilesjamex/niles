@@ -67,7 +67,7 @@ img{
 .home-body{
     margin: 0 11.6rem;
     @media screen and (max-width: 850px){
-        margin: 2rem 0 0 3rem;   
+        margin: 2rem 0 0 1rem;   
     } 
 }
 .name{
@@ -85,10 +85,11 @@ img{
 .body{
     margin: 3rem 8rem;
     span{
+        color: #800080;
 
     }
     @media screen and (max-width: 850px){
-      margin: 0rem 0rem;  
+      margin: 0rem 3rem;  
       font-size: 1rem;
       width:90%;
      } 

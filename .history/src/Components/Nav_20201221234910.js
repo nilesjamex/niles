@@ -25,7 +25,7 @@ const Nav = () => {
                <Link to="/works">Works</Link> 
                 </li>
                 <li>
-               <a href="../files/EgbaidomehJames.pdf" download>Resume</a> 
+               <Link>Resume</Link> 
                 </li>
              </ul>
              <div className={`burger ${navOut ? `toggle` : ""}`} onClick={onClick}>
@@ -75,7 +75,7 @@ ul{
         width: 60%;
         right: 0;
         top: 10vh;
-        background-color: #9932CC;
+        background-color: #9370DB;
         display: flex;
         flex-direction: column;
         align-items: center;

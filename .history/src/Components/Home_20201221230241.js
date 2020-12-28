@@ -85,6 +85,7 @@ img{
 .body{
     margin: 3rem 8rem;
     span{
+        color: #800080;
 
     }
     @media screen and (max-width: 850px){
@@ -101,7 +102,7 @@ ul{
         margin-top: 2px;
     }
     @media screen and (max-width: 850px){
-        margin: 2rem 0 0 0.3rem;
+        margin: 0rem 0 0 0.3rem;
         font-size: 1rem;
         hr{
         width: 60px;
