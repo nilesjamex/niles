@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import cartoon1 from '../Images/cartoon1.jpg'
 import { Link } from 'react-router-dom';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import resume from '../files/EgbaidomehJames.pdf'
 
 const Nav = () => {
     const [ navOut, setNavOut ] = useState(false);
@@ -25,10 +26,7 @@ const Nav = () => {
                <Link to="/works">Works</Link> 
                 </li>
                 <li>
-               <Link to="/contact">Contact</Link> 
-                </li>
-                <li>
-               <Link>Resume</Link> 
+               <a href="https://docs.google.com/document/d/e/2PACX-1vTOuhb5gwugvDrzM0KPEt636mybGgvBto_DCklNuXVf20aRrhN59vvvJLpiEH6g1DADgMwjOudIKTF5/pub">Resume</a> 
                 </li>
              </ul>
              <div className={`burger ${navOut ? `toggle` : ""}`} onClick={onClick}>
@@ -55,11 +53,12 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
-  margin-top: 15px;
+  min-height: 10vh;
+  margin-top: 0;
+  background-color: 	#9932CC;
   @media screen and (max-width: 850px){
     justify-content: space-between;
-    width: 60%;
+    width: 100%;
   }
 }
 img{
@@ -72,12 +71,12 @@ ul{
     width: 60%;
     justify-content: space-around;
     @media screen and (max-width: 850px){
-        position: absolute;
-        height: 800vh;
+        position: fixed  ;
+        height: 96vh;
         width: 60%;
         right: 0;
         top: 10vh;
-        background-color: black;
+        background-color: #9932CC;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -85,6 +84,12 @@ ul{
         transform: translateX(100%);
         overflow-x: hidden;
 
+    }
+    li{
+      color: #fff;
+    }
+    a{
+      color: #fff;
     }
 }
 .burger{

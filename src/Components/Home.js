@@ -51,6 +51,7 @@ margin-top: 3rem;
 @media screen and (max-width: 850px){
     display: flex;
     flex-direction: column-reverse;
+    text-align: center;
 }
 img{
     width: 100%;
@@ -58,7 +59,7 @@ img{
     object-fit: cover;
     margin-left: -10rem;
     @media screen and (max-width: 850px){
-        margin-left: 6rem;
+        margin: auto;
         border-radius: 100%;
         width: 40%;
         height: 20vh;
@@ -67,7 +68,8 @@ img{
 .home-body{
     margin: 0 11.6rem;
     @media screen and (max-width: 850px){
-        margin: 2rem 0 0 3rem;   
+        margin: 2rem auto 0 auto;  
+        text-align: center; 
     } 
 }
 .name{
@@ -75,11 +77,11 @@ img{
     @media screen and (max-width: 850px){
         font-size: 1rem;
         .main-name{
-            margin-left: 4.3rem;
+            margin: auto;
         }
     }
     .surname{
-        margin-left: 2.1rem;
+        margin: auto;
     }
 }
 .body{
@@ -88,7 +90,7 @@ img{
 
     }
     @media screen and (max-width: 850px){
-      margin: 0rem 0rem;  
+      margin: auto;  
       font-size: 1rem;
       width:90%;
      } 
@@ -101,7 +103,8 @@ ul{
         margin-top: 2px;
     }
     @media screen and (max-width: 850px){
-        margin: 2rem 0 0 0.3rem;
+        margin: 2rem 0 0 auto;
+        justify-content: center;
         font-size: 1rem;
         hr{
         width: 60px;
