@@ -6,21 +6,21 @@ return [
         languages: "React + styled components",
         brief: "well you're on it already!",
         github: "",
-        live: ""
+        live: "https://eloquentjay.netlify.app/"
     },
     {
         name: "Waves",
         languages: "React + styled components",
         brief: "Music Application",
         github: "https://github.com/nilesjamex/music-app",
-        live: ""
+        live: "https://chillhopmusic.netlify.app/"
     },
     {
         name: "Dicee",
         languages: "Javascript",
         brief: "A Single Player Dice Game",
         github: "https://github.com/nilesjamex/dice-game",
-        live: ""
+        live: "https://github.com/nilesjamex/dice-game"
     },
     {
         name: "Landing Page",
@@ -33,8 +33,8 @@ return [
         name: "Recipe App",
         languages: "React",
         brief: "Food Recipe Searching App",
-        github: "",
-        live: ""
+        github: "https://github.com/nilesjamex/recipe-app/",
+        live: "https://foodsearcher.netlify.app/"
     }
 ]
 }

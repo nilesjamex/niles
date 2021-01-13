@@ -5,8 +5,8 @@ return [
         name: "Portfolio",
         languages: "React + styled components",
         brief: "well you're on it already!",
-        github: "https://github.com/nilesjamex/niles",
-        live: "https://eloquentjay.netlify.app/"
+        github: "",
+        live: "eloquentjay.netlify.app"
     },
     {
         name: "Waves",
@@ -20,7 +20,7 @@ return [
         languages: "Javascript",
         brief: "A Single Player Dice Game",
         github: "https://github.com/nilesjamex/dice-game",
-        live: "https://github.com/nilesjamex/dice-game"
+        live: ""
     },
     {
         name: "Landing Page",
@@ -34,7 +34,7 @@ return [
         languages: "React",
         brief: "Food Recipe Searching App",
         github: "https://github.com/nilesjamex/recipe-app/",
-        live: "https://foodsearcher.netlify.app/"
+        live: "foodsearcher.netlify.app"
     }
 ]
 }
