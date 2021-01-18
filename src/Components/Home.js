@@ -44,7 +44,6 @@ const Home = () => {
        
     )
 }
-
 const About = styled.div`
 display: flex;
 margin-top: 3rem;
